@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="569px" height="98px" viewBox="0 0 569 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>fade_rubrik/two_lines copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#000000" stop-opacity="0" offset="0%"></stop>
+            <stop stop-color="#F8C759" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-W" transform="translate(-670.000000, -1022.000000)">
+            <g id="Group-2" transform="translate(0.000000, 1022.000000)">
+                <g id="fade_rubrik/two_lines-copy-3" transform="translate(954.500000, 49.000000) rotate(-360.000000) translate(-954.500000, -49.000000) translate(670.000000, 0.000000)">
+                    <rect id="Rectangle-2" fill="url(#linearGradient-1)" x="0" y="0" width="569" height="98"></rect>
+                    <text id="5-sätt-att-shoppa-sm" font-family="Didot-Bold, Didot" font-size="30" font-weight="bold" fill="#FFFFFF">
+                        <tspan x="313.81982" y="60.4">PETA-certifierad</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
