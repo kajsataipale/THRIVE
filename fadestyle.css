@@ -1,0 +1,89 @@
+.fourthPage  {
+  background-image: url("images\thrive_mobil_element\concret_wall.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.arrow {
+  width: 20%;
+}
+
+.headerFour {
+  background-color: black!important;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 12;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+
+.PETA {
+  width: 100vw;
+  height: 10vh;
+  position: absolute;
+  background-color: black;
+}
+
+
+.shirtFade {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+
+.shirtFade img {
+  height: 100vh;
+  width: 100vw;
+  position:absolute;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+}
+
+#topPic {
+  animation-name: fade;
+  left: 0;
+  animation-delay: 4s;
+}
+#bottomPic {
+  left: 0;
+}
+
+@-webkit-keyframes fade {
+  0% {opacity: 0;}
+  20% {opacity: 1;}
+  33% {opacity: 1;}
+  53% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+
+@keyframes fade {
+  0% {opacity: 0;}
+  20% {opacity: 1;}
+  33% {opacity: 1;}
+  53% {opacity: 0;}
+  100% {opacity: 0;}
+}
+
+.textBox {
+  border: 2px solid black;
+  background-color: black;
+  width: 80vw;
+  height:62vw;
+  position: absolute;
+  bottom: 125px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.petaText {
+  color: white;
+  font-size: 38px;
+  text-align: left;
+  padding: 35px 35px;
+  line-height: 37px;
+}
