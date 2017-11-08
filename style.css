@@ -267,12 +267,19 @@ height: 100vh;
   z-index: 1;
 }
 
-.tipsOne p {
+.textOne {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #000000;
+}
+
+.textOne h3 {
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.textOne p {
   font-family: Raleway;
   font-size: 18px;
   line-height: 18px;
@@ -293,11 +300,19 @@ height: 100vh;
     z-index: 1;
   }
 
-  .tipsTwo p {
+  .textTwo {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  .textTwo h3 {
+    margin-bottom: 50px;
+    font-weight: bold;
+  }
+
+  .textTwo p {
     color: #000000;
     font-family: Raleway;
     font-size: 18px;
@@ -318,11 +333,19 @@ height: 100vh;
   z-index: 1;
 }
 
-.tipsThree p {
+.textThree {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.textThree h3 {
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.textThree p {
   color: #000000;
   font-family: Raleway;
   font-size: 18px;
@@ -344,11 +367,53 @@ height: 100vh;
   z-index: 1;
 }
 
-.tipsFour p {
+.textFour {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.textFour h3 {
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.textFour p {
+  color: #000000;
+  font-family: Raleway;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: left;
+}
+
+/*Last slider css*/
+
+.containLast {
+  position: relative;
+  text-align: center;
+}
+
+
+.tipsLast {
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+.lastText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.lastText h3 {
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+.lastText p {
   color: #000000;
   font-family: Raleway;
   font-size: 18px;
