@@ -310,24 +310,24 @@ background-color: #F8C759;
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {
 	background: white;
-	width: 30px!important;
-	height: 30px!important;
+	width: 10px!important;
+	height: 10px!important;
 	margin: -4px 0 0 -4px;
   border: 3px solid black!important;
 }
 
 #fp-nav ul li,
 .fp-slidesNav ul li {
-	width: 30px!important;
-	height: 30px!important;
+	width: 10px!important;
+	height: 10px!important;
 }
 
 #fp-nav ul li a.active span,
 .fp-slidesNav ul li a.active span,
 #fp-nav ul li:hover a.active span,
 .fp-slidesNav ul li:hover a.active span {
-	width: 30px!important;
-	height: 30px!important;
+	width: 10px!important;
+	height: 10px!important;
 	margin: -8px 0 0 -8px;
 	background: black;
 	box-sizing: border-box;
