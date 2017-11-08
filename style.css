@@ -305,6 +305,7 @@ height: 100vh;
     text-align: left;
 }
 
+/*Thrid slider css*/
 .containThree {
   position: relative;
   text-align: center;
@@ -318,6 +319,32 @@ height: 100vh;
 }
 
 .tipsThree p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000000;
+  font-family: Raleway;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: left;
+}
+
+/*Fourth slider css*/
+
+.containFour {
+  position: relative;
+  text-align: center;
+}
+
+
+.tipsFour {
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+.tipsFour p {
   position: absolute;
   top: 50%;
   left: 50%;
