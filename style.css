@@ -303,9 +303,32 @@ height: 100vh;
     font-size: 18px;
     line-height: 18px;
     text-align: left;
-
-
 }
+
+.containThree {
+  position: relative;
+  text-align: center;
+}
+
+
+.tipsThree {
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+.tipsThree p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000000;
+  font-family: Raleway;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: left;
+}
+
 .Cbox {
   height: 70px;
   width: 315px;
