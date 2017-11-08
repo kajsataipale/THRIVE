@@ -247,6 +247,34 @@ background-size: contain;*/
 width: 100vw;
 height: 100vh;
 }
+
+.containOne {
+  position: relative;
+  text-align: center;
+}
+
+.backtips {
+  position: absolute;
+  width: 100vw;
+}
+
+.tipsOne {
+  height: 100vh;
+  width: 100vw;
+}
+
+.tipsOne p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #000000;
+  font-family: Raleway;
+  font-size: 24px;
+  line-height: 30px;
+
+
+}
 .Cbox {
   height: 70px;
   width: 315px;
