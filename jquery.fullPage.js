@@ -126,7 +126,7 @@
             loopHorizontal: true,
             continuousVertical: false,
             continuousHorizontal: false,
-            scrollHorizontally: false,
+            scrollHorizontally: true,
             interlockedSlides: false,
             dragAndMove: false,
             offsetSections: false,

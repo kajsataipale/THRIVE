@@ -1,58 +1,192 @@
-@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700);
-
-
-
-/* ICON STYLES - ICON FROM: http://fontastic.me/
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-@font-face {
-  font-family: "untitled-font-1";
-  font-style: normal;
+body {
+  background-color: black!important;
+  margin: 0;
+  padding: 0;
+}
+  .mainpage {
+    height: 860px;
+    width: 100%;
+  }
+  .fastbox {
+    width: 50px;
+    height: 90px;
+  }
+.fastF{
+  height: 60px;
+  width: 60px;
+}
+.header-top {
+	background-color: black!important;
+  position: absolute;
+  /*padding: 0 10px;*/
+  /*position: fixed;*/
+  top: 0;
+  width: 100%;
+  height: 80px;
+  z-index: 12;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 3px 6px 2px rgba(0,0,0,0.5);
 }
 
-[class^="icon-"]:after,
-[class*=" icon-"]:after {
-  font-family: "untitled-font-1";
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  speak: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.logoType h1 {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-size: 32px;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 15px;
+  letter-spacing: 15px;
 }
 
-.icon-up-open-big { display: inline-block; }
+.logoType p {
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  color: white;
+  margin: 0 auto;
+  top: 54px;
+  left: 50%;
+  transform: translateX(-50%);
+  letter-spacing: 8px;
+}
+.MainBox{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.imgInbox {
+	height: 100%;
+  width: 100%;
+  position: absolute;
+}
+.Cbox {
+  height: 98px;
+  width: 440px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 35vh;
+  position: relative;
+}
+ .Cbox h2 {
+   height: 59px;
+   width: 354px;
+   text-transform: uppercase;
+   color: #FFFFFF;
+   font-family: Didot;
+   font-size: 48px;
+   font-style: italic;
+   letter-spacing: 2px;
+   line-height: 60px;
+   text-align: center;
+   justify-content: center;
+}
+.arrow {
+  width: 114px;
+  height: 41px;
+  margin: 0 auto;
+  margin-top: 5vh;
+  position: relative;
+}
+/*second page*/
 
-.icon-up-open-big:after {
-  content: "a";
-  font-size: 2.5em;
-  display: block;
-  -webkit-transform: rotateX(180deg);
-          transform: rotateX(180deg);
-  color: black;
-  -webkit-transition: color .3s;
-          transition: color .3s;
+.Main {
+  background-color: black!important;
+  width: 100%;
+  height: 100%;
+}
+.wrapps {
+  background-color: black!important;
+  width: 100%;
+  height: 100%;
+  display: flex;
 }
 
-.icon-up-open-big:hover:after {
-	color: white;
+.ImG {
+    height: 711px;
+    width: 569px;
+    margin: 0;
+}
+.HeadEr {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.scroll-icon {
-	position: absolute;
- 	left: 50%;
-  bottom: 30px;
-  padding: 0 10px;
-  	-webkit-transform: translateX(-50%);
-  	        transform: translateX(-50%);
+.F {
+  height: 98;
+  width: 569px;
+  margin-bottom: -10px;
 }
 
+/* Slides */
+
+.Headr {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+.backtips {
+width: 100vw;
+height: 80vh;
+position: absolute;
+top: 98px;
+}
+
+.backhead {
+width: 1280px;
+background-color: black;
+position: absolute;
+top: 0;
+}
+
+/* last page */
 
 
-/* HELPER CLASSES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+/*JS FULLPAGE*/
+
+#fp-nav ul li a span,
+.fp-slidesNav ul li a span {
+	background: white;
+	width: 30px!important;
+	height: 30px!important;
+	margin: -4px 0 0 -4px;
+  border: 3px solid black!important;
+}
+
+#fp-nav ul li,
+.fp-slidesNav ul li {
+	width: 30px!important;
+	height: 30px!important;
+}
+
+#fp-nav ul li a.active span,
+.fp-slidesNav ul li a.active span,
+#fp-nav ul li:hover a.active span,
+.fp-slidesNav ul li:hover a.active span {
+	width: 30px!important;
+	height: 30px!important;
+	margin: -8px 0 0 -8px;
+	background: black;
+	box-sizing: border-box;
+	border: 3px solid black;
+}
 
 .clearfix:before,
 .clearfix:after {
@@ -86,273 +220,3 @@
 	-webkit-transition-delay: 1s;
 	        transition-delay: 1s;
 }
-
-
-
-/* RESET-GENERAL STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-* {
-	margin: 0;
-	padding: 0;
-	font-family: 'Alegreya Sans', Arial, sans-serif;
-
-
-}
-
-html {
-	font-size: 62.5%;
-}
-
-body {
-	color: black;
-	letter-spacing: .18em;
-}
-
-a {
-	text-decoration: none;
-	color: white;
-}
-
-
-
-.header-top {
-	background-color: black!important;
-  position: absolute;
-  /*padding: 0 10px;*/
-  /*position: fixed;*/
-  top: 0;
-  width: 100%;
-  z-index: 12;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-}
-.logo{
-  width: 370px;
-  height: 7vh;
-  background-color: black;
-  padding: 4vh;
-}
-
-.heads {
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: 12;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  background-color: black;
-
-}
-
-.rubrik {
-  width: 100%;
-  height: 12vh;
-}
-
-.mainpage {
-
-  background-image: url("images/thrive_mobil_element/startsida.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-.Event {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-/*.hidden {
-  /*opacity: 0;
-  transition: opacity 0.5s linear 0s;
-  visibility: hidden;*/
-  /*position: absolute;
-  top: 60vh;
-  left: 8vh;
-  color: white;
-  font-size: 4em;
-  background-color: black;
-  padding: 3vh;
-  text-align: left;
-  height: 30vh;
-  width: 70%;
-  display: block;
-  visibility: visible;
-  margin: 0 auto;
-}*/
-
-.plus {
-  visibility: hidden;
-  width: 25%;
-  height: 10vh;
-  margin: 0 auto;
-  margin-bottom: 5vh;
-}
-
-/*.plus:hover + .hidden{
-  display: block;
-  opacity: 1;
-  visibility: visible;
-}*/
-.arrow {
-  width: 25%;
-  height: 4vh;
-  margin: 0 auto;
-  margin-top: 5vh;
-
-}
-/* SECTION STYLES - fullPage.js
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-section {
-	text-align: center;
-
-
-  /*background: url('https://unsplash.it/1910/1221?image=626') no-repeat center / cover;*/
-}
-.Main {
-  background-color: black!important;
-  background-image: url("images/thrive_mobil_element/concret_wall.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.fastF {
-/*background-image: url("images/thrive_mobil_element/fuck_fashion_bild.png");
-background-repeat: no-repeat;
-background-size: contain;*/
-width: 100vw;
-height: 80vh;
-}
-.Cbox {
-  height: 10vh;
-  width: 70%;
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  margin-top: 35vh;
-}
-h2 {
-	text-transform: uppercase;
-	font-size: 10em;
-  color:white;
-  font-style: italic;
-	/*margin-bottom: 20px;*/
-}
-
-b {
-  font-size: 120%;
-}
-
-h3 {
-	font-weight: 300;
-	font-size: 2.8em;
-}
-.backhead {
-/*width: 100%;*/
-height: 7vh;
-background-color: black;
-}
-.backtips {
-width: 100vw;
-height: 100vh;
-}
-
- .store {
-  width: 90%;
-  height: 12vh;
-  margin: 0 auto;
-  margin-top: 65vh;
-  position: absolute;
-}
-/* SLIDENAV STYLES - fullPage.js
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-#fp-nav ul li a span,
-.fp-slidesNav ul li a span {
-	background: white;
-	width: 30px!important;
-	height: 30px!important;
-	margin: -4px 0 0 -4px;
-  border: 3px solid black!important;
-}
-
-#fp-nav ul li,
-.fp-slidesNav ul li {
-	width: 30px!important;
-	height: 30px!important;
-}
-
-#fp-nav ul li a.active span,
-.fp-slidesNav ul li a.active span,
-#fp-nav ul li:hover a.active span,
-.fp-slidesNav ul li:hover a.active span {
-	width: 30px!important;
-	height: 30px!important;
-	margin: -8px 0 0 -8px;
-	background: black;
-	box-sizing: border-box;
-	border: 3px solid black;
-}
-
-//#24221F
-
-/* MQ STYLES
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-@media screen and (max-width: 767px) {
-
-  .logo {
-    width: 50%;
-  }
-
-  .scroll-icon {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  html {
-    font-size: 50%;
-  }
-
-  .logo {
-    width: 150%;
-  }
-}
-
-
-
-/*@media screen and (max-width: 800px) {
-  .hidden {
-    opacity: 0;
-    transition: opacity 0.5s linear 0s;
-    visibility: hidden;
-    position: absolute;
-    top: 40vh;
-    left: 8vh;
-    color: white;
-    font-size: 4em;
-    background-color: black;
-    padding: 3vh;
-    text-align: left;
-    height: 30vh;
-    width: 70%;
-  }
-  .plus {
-    visibility: visible;
-    display: block;
-    width: 25%;
-    height: 10vh;
-    margin: 0 auto;
-    margin-bottom: 5vh;
-  }
-  .plus:hover + .hidden{
-    display: block;
-    opacity: 1;
-    visibility: visible;
-  }
-}*/
