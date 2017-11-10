@@ -156,6 +156,80 @@ position: absolute;
 top: 0;
 }
 
+.Headr2 {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.plus2 {
+  position: absolute;
+  width: 8%;
+  top: 280vh;
+}
+/* hover hidden */
+.hiddenbox{
+  opacity: 0;
+  transition: opacity 0.5s linear 0s;
+  visibility: hidden;
+  position: absolute;
+  background-color: black;
+  top: 120vh;
+  left: 10%;;
+  padding: 3vh;
+  height: 472px;
+  width: 404px;
+  display: block;
+  visibility: hidden;
+  margin: 0 auto;
+}
+
+.hiddenbox2{
+  opacity: 0;
+  transition: opacity 0.5s linear 0s;
+  visibility: hidden;
+  position: absolute;
+  background-color: black;
+  top: 120vh;
+  left: 60%;;
+  padding: 3vh;
+  height: 472px;
+  width: 404px;
+  display: block;
+  visibility: hidden;
+  margin: 0 auto;
+}
+
+
+.hidden {
+  position: relative;
+  color: white;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: left;
+}
+.plus {
+  position: absolute;
+  width: 8%;
+  top: 180vh;
+  cursor: pointer;
+}
+
+.plus:hover + .hiddenbox{
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+
+.plus:hover + .hiddenbox2{
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
 /* last page */
 
 
