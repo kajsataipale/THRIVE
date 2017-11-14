@@ -112,7 +112,7 @@ body {
   display: flex;
 }
 
-#topPic, #bottomPic{
+ #bottomPic{
   position:absolute;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-duration: 8s;
@@ -120,8 +120,9 @@ body {
   animation-duration: 8s;
 }
 #topPic {
-  animation-name: fade;
+  /*animation-name: fade;*/
   left: 5%!important;
+  position: absolute;
   /*animation-delay: 4s;*/
 }
 #bottomPic {
@@ -132,8 +133,8 @@ body {
 @-webkit-keyframes fade {
   0% {opacity: 1;}
   20% {opacity: 1;}
-  33% {opacity: 0;}
-  53% {opacity: 0;}
+  33% {opacity: 1;}
+  53% {opacity: 1;}
   100% {opacity: 1;}
 }
 
@@ -494,7 +495,20 @@ top: 0;
   margin-bottom: -10px;
   background-color: black;
 }
-
+#topPic1, #bottomPic1{
+  position:absolute;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+}
+#topPic1 {
+  left: 5%!important;
+}
+#bottomPic1 {
+  left: 5%!important;
+  animation-name: shade;
+}
 /*JS FULLPAGE*/
 #fp-nav ul, .fp-slidesNav ul {
   padding-bottom: 6%!important;
