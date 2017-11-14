@@ -509,6 +509,47 @@ top: 0;
   left: 5%!important;
   animation-name: shade;
 }
+
+
+/* Footer */
+a {
+  text-decoration: none;
+}
+a .Linkbox {
+  display: flex;
+  align-items: center;
+}
+.Linkbox {
+position: relative;
+bottom: 0;
+/*height: 105px;*/
+width: 517px;
+margin: 0 auto;
+background-color: black;
+display: flex;
+align-items: flex-end;
+justify-content: center
+}
+
+.Linkbox p{
+  font-size: 19px;
+  line-height: 22px;
+  text-align: center;
+  color: white;
+  font: Raleway;
+}
+
+.Linkbox h3{
+	height: 68px;
+  width: 517px;
+  color: white;
+  font-family: Muli;
+  font-size: 55px;
+  font-weight: 200;
+  letter-spacing: 3px;
+  line-height: 69px;
+  text-align: center;
+}
 /*JS FULLPAGE*/
 #fp-nav ul, .fp-slidesNav ul {
   padding-bottom: 6%!important;
