@@ -112,6 +112,39 @@ body {
   display: flex;
 }
 
+#topPic, #bottomPic{
+  position:absolute;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+}
+#topPic {
+  animation-name: fade;
+  left: 5%!important;
+  /*animation-delay: 4s;*/
+}
+#bottomPic {
+  left: 5%!important;
+  animation-name: shade;
+}
+
+@-webkit-keyframes fade {
+  0% {opacity: 1;}
+  20% {opacity: 1;}
+  33% {opacity: 0;}
+  53% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+
+@keyframes shade {
+  0% {opacity: 1;}
+  20% {opacity: 0;}
+  33% {opacity: 0;}
+  53% {opacity: 1;}
+  100% {opacity: 1;}
+}
 .ImG {
     height: 711px;
     width: 569px;
@@ -126,12 +159,43 @@ body {
   align-items: center;
 }
 
-.F {
+.Heading {
   height: 98;
   width: 569px;
+  position: absolute;
+  left: 5%;
+  z-index: 6;
+  top: 0px;
   margin-bottom: -10px;
+  background-color: black;
+}
+.Heading2 {
+  height: 98;
+  width: 569px;
+  position: absolute;
+  right: 5%;
+  z-index: 6;
+  top: 0px;
+  margin-bottom: -10px;
+  background-color: black;
 }
 
+#topPic2, #bottomPic2{
+  position:absolute;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-duration: 8s;
+}
+#topPic2 {
+  animation-name: fade;
+  right: 5%!important;
+  /*animation-delay: 4s;*/
+}
+#bottomPic2 {
+  right: 5%!important;
+  animation-name: shade;
+}
 /* Slides */
 
 .Headr {
@@ -155,28 +219,149 @@ background-color: black;
 position: absolute;
 top: 0;
 }
+/* Slide one*/
+.tipsOne {
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
 
-.Headr2 {
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-}
-.plus2 {
+.textOne {
   position: absolute;
-  width: 8%;
-  top: 280vh;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
-/* hover hidden */
+
+.textOne h3 {
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.textOne p {
+  font-family: Raleway;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: left;
+}
+/* Slide two */
+.tipsTwo {
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+.textTwo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.textTwo h3 {
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.textTwo p {
+  font-family: Raleway;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: left;
+}
+/* Slide three */
+.tipsThree {
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+.textThree {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.textThree h3 {
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.textThree p {
+  font-family: Raleway;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: left;
+}
+/* Slide four */
+.tipsFour {
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+.textFour {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.textFour h3 {
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.textFour p {
+  font-family: Raleway;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: left;
+}
+/* Last slide */
+.tipsLast {
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+.lastText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.lastText h3 {
+  margin-bottom: 50px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.lastText p {
+  font-family: Raleway;
+  font-size: 24px;
+  line-height: 30px;
+  text-align: left;
+}
+/* the hidden text */
 .hiddenbox{
   opacity: 0;
   transition: opacity 0.5s linear 0s;
   visibility: hidden;
   position: absolute;
   background-color: black;
-  top: 120vh;
+  top: 20vh;
   left: 10%;;
   padding: 3vh;
   height: 472px;
@@ -192,7 +377,7 @@ top: 0;
   visibility: hidden;
   position: absolute;
   background-color: black;
-  top: 120vh;
+  top: 20vh;
   left: 60%;;
   padding: 3vh;
   height: 472px;
@@ -213,7 +398,7 @@ top: 0;
 .plus {
   position: absolute;
   width: 8%;
-  top: 180vh;
+  top: 80vh;
   cursor: pointer;
 }
 
@@ -232,9 +417,89 @@ top: 0;
 
 /* last page */
 
+.HeadEr2 {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
+.plus2 {
+  position: absolute;
+  width: 8%;
+  top: 80vh;
+}
+
+.plus2:hover + .hiddenbox3 {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+.plus2:hover + .hiddenbox4{
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+.hiddenbox3 {
+  opacity: 0;
+  transition: opacity 0.5s linear 0s;
+  visibility: hidden;
+  position: absolute;
+  background-color: black;
+  top: 22vh;
+  left: 10%;;
+  padding: 3vh;
+  height: 472px;
+  width: 404px;
+  display: block;
+  visibility: hidden;
+  margin: 0 auto;
+}
+.hiddenbox4 {
+  opacity: 0;
+  transition: opacity 0.5s linear 0s;
+  visibility: hidden;
+  position: absolute;
+  background-color: black;
+  top: 22vh;
+  left: 60%;;
+  padding: 3vh;
+  height: 472px;
+  width: 404px;
+  display: block;
+  visibility: hidden;
+  margin: 0 auto;
+}
+.Heading3 {
+  height: 98;
+  width: 569px;
+  position: absolute;
+  left: 5%;
+  z-index: 6;
+  top: 0;
+  margin-bottom: -10px;
+  background-color: black;
+}
+.Heading4 {
+  height: 98;
+  width: 569px;
+  position: absolute;
+  right: 5%;
+  z-index: 6;
+  top: 0;
+  margin-bottom: -10px;
+  background-color: black;
+}
 
 /*JS FULLPAGE*/
+#fp-nav ul, .fp-slidesNav ul {
+  padding-bottom: 6%!important;
+  padding-left: 40%!important;
+}
 
 #fp-nav ul li a span,
 .fp-slidesNav ul li a span {

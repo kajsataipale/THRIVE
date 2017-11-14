@@ -4,11 +4,11 @@
 
   <!-- <link rel="stylesheet" href="style.css"> -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
   <script src="./jquery.fullPage.js"></script>
   <link rel="stylesheet" href="./jquery.fullPage.css"/>
   <link rel="stylesheet" href="fadestyle.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </script>
 <title>T H R I V E</title>
@@ -41,16 +41,18 @@
     <section class="vertical-scrolling Main">
       <div class="wrapps">
           <div class="HeadEr">
-            <img class="F"src="images/rubriker/fashion.svg">
-            <img class="ImG"src="images/desk/fastFashion.png">
+            <img class="Heading"src="images/rubriker/fashion.svg">
+            <img id="topPic" class="ImG"src="images/desk/fastFashion.png">
+            <img id="bottomPic" class="ImG"src="images/BildtillDesk/berlin_desktop_fade.png">
             <img class="plus" src="images/desktopelement/ikoner/plusikon.svg">
               <div class="hiddenbox">
                 <p class="hidden">Fast fashion dominerar idag modebranschen. De traditionella uppdelningarna vår/sommar och höst/vinter har idag delats upp på minst 52 micro-kollektiner per år vilket genererar en ohållbar konsumtion av kläder. De mesta av dessa kläder slängs sedan efter bara fåtalet användningar, detta vill vi på THRIVE ändra på in vårt arbete med hållbart mode.</p>
               </div>
           </div>
           <div class="HeadEr">
-            <img class="F"src="images/rubriker/modevision.svg">
-            <img class="ImG"src="images/desk/man_desktop.png">
+            <img class="Heading2"src="images/rubriker/modevision.svg">
+            <img id="topPic2"class="ImG"src="images/desk/man_desktop.png">
+            <img id="bottomPic2"src="images/BildtillDesk/sitting_girl_desktop_fade.png" alt="">
             <img class="plus" src="images/desktopelement/ikoner/plusikon.svg">
               <div class="hiddenbox2">
                 <p class="hidden">THRIVE är Skandinaviens ledande konceptbutik inom ekologiskt, rättvist och hållbart mode, och dessutom Sveriges första PETA-certifierade butik. PETA-certifikatet baseras på att det inte gjorts några djurförsök på material eller färdiga produkter och lovar att inte göra det i framtiden. Om hållbart mode ska förbli hållbart är detta en viktig pelare.</p>
@@ -66,6 +68,12 @@
           <div class="Headr">
             <img class="backhead"src="images/rubriker/5tips.svg" alt="">
             <img class="backtips" src="images/rubriker/back5.jpg" alt="">
+            <div class="tipsOne">
+              <div class="textOne">
+                <h3>#1 Will you wear it 30 times?</h3>
+                <p>Den snabba omsättningen  av kläder som kännetecknar fast fashion tillsammans med ständigt sjunkande priser leder till ett oerhört utnyttjande av arbetare. Att fråga dig själv om du kommer att bära plagget mins 30 gånger är ett bra sätt att börja handla smartare och mer långsiktigt.</p>
+              </div>
+            </div>
           </div>
         </div>
       <!-- Second slide -->
@@ -73,6 +81,12 @@
           <div class="Headr">
             <img class="backhead"src="images/rubriker/5tips.svg">
             <img class="backtips" src="images/rubriker/back5.jpg">
+            <div class="tipsTwo">
+              <div class="textTwo">
+                <h3>#2 Break the cycle</h3>
+                <p>De traditionella säsongerna vår/sommar och höst/vinter har idag bytts ut till minst 52 micro-säsonger varje år. Detta leder till oansvarig konsumtion av mode. Så sakta ner, köp mindre men bättre.</p>
+              </div>
+            </div>
           </div>
         </div>
         <!-- Third slide -->
@@ -80,6 +94,12 @@
           <div class="Headr">
             <img class="backhead"src="images/rubriker/5tips.svg">
             <img class="backtips" src="images/rubriker/back5.jpg">
+            <div class="tipsThree">
+              <div class="textThree">
+                <h3>#3 Spread your fashion</h3>
+                <p>Den globala modebranschen är värd 2.5 biljoner dollar. Borde inte detta delas? Producentcentrerade märken och butiker, som följer strikta fair trade-standarder, har långvariga producentgrupper som får en rättvis del av vinsten. </p>
+              </div>
+            </div>
           </div>
         </div>
         <!-- Fourth slide  -->
@@ -87,6 +107,12 @@
           <div class="Headr">
             <img class="backhead"src="images/rubriker/5tips.svg">
             <img class="backtips" src="images/rubriker/back5.jpg">
+            <div class="tipsFour">
+              <div class="textFour">
+                <h3>#4 Detox your wardrobe</h3>
+                <p>Mode är världens mest förorenade industri efter olja. Azodier är fortfarande de mest använda syntetiska färgerna trots att de är giftiga. 10% av världens största mode-varumärken har förbundit sig att avveckla giftiga ämnen genom Greenpeace's Detox-program. Kolla in den här "listan".</p>
+              </div>
+            </div>
           </div>
         </div>
         <!-- last slide  -->
@@ -94,6 +120,12 @@
           <div class="Headr">
             <img class="backhead"src="images/rubriker/5tips.svg">
             <img class="backtips" src="images/rubriker/back5.jpg">
+            <div class="tipsLast">
+              <div class="lastText">
+                <h3>#5 Join the fashion revolution</h3>
+                <p>Var själv den förändring du vill se i din garderob. "klädrevolutionen" representerar flera miljoner konsumenter som vill ha förändring och inte tolererar industrins människoutnyttjande, genom att sätta press på öppenhet och krav om att ge konsumenterna möjlighet att vara nyfikna på vilka som gjort deras kläder.</p>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -102,16 +134,29 @@
     <section class="vertical-scrolling Main">
       <div class="wrapps">
         <div class="HeadEr2">
-          <img class="F"src="images/rubriker/peta.svg">
-          <img class="ImG"src="images/BildtillDesk/shirt_desktop_fade.png">
-        </div>
+          <img class="Heading3"src="images/rubriker/peta.svg">
+          <img id="topPic"class="ImG"src="images/BildtillDesk/shirt_desktop_fade.png">
+          <img id="bottomPic" src="images/BildtillDesk/jacket_mobil_fade.png" alt="">
+          <img class="plus2" src="images/desktopelement/ikoner/plusikon.svg">
+            <div class="hiddenbox3">
+              <p class="hidden">THRIVEs vision är att erbjuda exklusiva och noggrant utvalda kollektioner från världens ledande hållbara varumärken. Kollektionerna är ofta små och och limiterade. Tillsammans med PETA-certifikatet bidrar de till en positiv förändring för miljön, djuren och människorna. Respektfullt mode utan kompromisser – Hos THRIVE  är alla vinnare.</p>
+            </div>
+         </div>
         <div class="HeadEr2">
-          <img class="F"src="images/rubriker/Whattodo.svg">
-          <img class="ImG"src="images/BildtillDesk/sitta_desktop_fade.png">
-        </div>
+          <img class="Heading4"src="images/rubriker/Whattodo.svg">
+          <img id="topPic2"class="ImG"src="images/BildtillDesk/sitta_desktop_fade.png">
+          <img id="bottomPic2" src="images/desk/close-up_desktop_fade.png" alt="">
+          <img class="plus2" src="images/desktopelement/ikoner/plusikon.svg">
+            <div class="hiddenbox4">
+              <p class="hidden">Genom att vara aktivt medveten med vilka kläder du väljer att köpa kan du faktiskt göra skillnad. Till Exempel har våra jeans från Mud Jeans livstids reparation. Hur bra är inte det? Den ekologiska bomullen kombinerat med reparationen gör jeansen till en hållbar vinnare i alla lägen som slipper att bli slängda..</p>
+            </div>
+          </div>
+
       </div>
     </section>
+
   </div>
+
 </body>
 
 
