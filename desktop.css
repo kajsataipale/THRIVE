@@ -22,7 +22,7 @@ body {
   /*position: fixed;*/
   top: 0;
   width: 100%;
-  height: 80px;
+  height: 11.55vh;
   z-index: 12;
   margin: 0;
   box-sizing: border-box;
@@ -147,22 +147,23 @@ body {
   100% {opacity: 1;}
 }
 .ImG {
-    height: 711px;
-    width: 569px;
+    /*height: 711px;*/
+    width: 35vw;
     margin: 0;
+    top: 100px;
 }
 .HeadEr {
   height: 100%;
   width: 100%;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: column-reverse;
+  /*justify-content: center;*/
   align-items: center;
 }
 
 .Heading {
   height: 98;
-  width: 569px;
+  width: 35vw;
   position: absolute;
   left: 5%;
   z-index: 6;
@@ -172,7 +173,7 @@ body {
 }
 .Heading2 {
   height: 98;
-  width: 569px;
+  width: 35vw;
   position: absolute;
   right: 5%;
   z-index: 6;
@@ -365,8 +366,8 @@ top: 0;
   top: 20vh;
   left: 10%;;
   padding: 3vh;
-  height: 472px;
-  width: 404px;
+  /*height: 472px;*/
+  width: 30vw;
   display: block;
   visibility: hidden;
   margin: 0 auto;
@@ -376,13 +377,12 @@ top: 0;
   opacity: 0;
   transition: opacity 0.5s linear 0s;
   visibility: hidden;
-  position: absolute;
   background-color: black;
   top: 20vh;
   left: 60%;;
   padding: 3vh;
-  height: 472px;
-  width: 404px;
+  /*height: 472px;*/
+  width: 30vw;
   display: block;
   visibility: hidden;
   margin: 0 auto;
@@ -392,12 +392,14 @@ top: 0;
 .hidden {
   position: relative;
   color: white;
+  background-color: black;
+  padding: 3vh;
   font-size: 24px;
   line-height: 30px;
   text-align: left;
 }
 .plus {
-  position: absolute;
+  z-index: 1;
   width: 8%;
   top: 80vh;
   cursor: pointer;
