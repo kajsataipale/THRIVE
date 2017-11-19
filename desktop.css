@@ -216,9 +216,9 @@ top: 98px;
 }
 
 .backhead {
-width: 1280px;
+width: 100vw;
 background-color: black;
-position: absolute;
+/*position: absolute;*/
 top: 0;
 }
 /* Slide one*/
@@ -229,7 +229,9 @@ top: 0;
 }
 
 .textOne {
-  position: absolute;
+  position: relative;
+  width: 40vw;
+  height: 45vw;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -244,10 +246,11 @@ top: 0;
 
 .textOne p {
   font-family: Raleway;
-  font-size: 24px;
+  font-size: 2vw;
   line-height: 30px;
   text-align: left;
 }
+
 /* Slide two */
 .tipsTwo {
   height: 100vh;
@@ -256,7 +259,9 @@ top: 0;
 }
 
 .textTwo {
-  position: absolute;
+  position: relative;
+  width: 40vw;
+  height: 45vw;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -271,7 +276,7 @@ top: 0;
 
 .textTwo p {
   font-family: Raleway;
-  font-size: 24px;
+  font-size: 2vw;
   line-height: 30px;
   text-align: left;
 }
@@ -283,7 +288,9 @@ top: 0;
 }
 
 .textThree {
-  position: absolute;
+  position: relative;
+  width: 40vw;
+  height: 45vw;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -298,7 +305,7 @@ top: 0;
 
 .textThree p {
   font-family: Raleway;
-  font-size: 24px;
+  font-size: 2vw;
   line-height: 30px;
   text-align: left;
 }
@@ -310,7 +317,9 @@ top: 0;
 }
 
 .textFour {
-  position: absolute;
+  position: relative;
+  width: 40vw;
+  height: 45vw;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -325,7 +334,7 @@ top: 0;
 
 .textFour p {
   font-family: Raleway;
-  font-size: 24px;
+  font-size: 2vw;
   line-height: 30px;
   text-align: left;
 }
@@ -337,7 +346,9 @@ top: 0;
 }
 
 .lastText {
-  position: absolute;
+  position: relative;
+  width: 40vw;
+  height: 45vw;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -352,7 +363,7 @@ top: 0;
 
 .lastText p {
   font-family: Raleway;
-  font-size: 24px;
+  font-size: 2vw;
   line-height: 30px;
   text-align: left;
 }
