@@ -25,8 +25,6 @@ body {
 .header-top {
 	background-color: black!important;
   position: absolute;
-  /*padding: 0 10px;*/
-  /*position: fixed;*/
   top: 0;
   width: 100%;
   height: 80px;
@@ -90,7 +88,7 @@ body {
    width: 354px;
    text-transform: uppercase;
    color: #FFFFFF;
-   font-family: Didot;
+   font-family: Didot!important;
    font-size: 48px;
    font-style: italic;
    letter-spacing: 2px;
@@ -127,23 +125,21 @@ body {
   animation-duration: 8s;
 }
 #topPic {
-  /*animation-name: fade;*/
   left: 5%!important;
   position: absolute;
-  /*animation-delay: 4s;*/
 }
 #bottomPic {
   left: 5%!important;
   animation-name: shade;
 }
 
-@-webkit-keyframes fade {
+/*@-webkit-keyframes fade {
   0% {opacity: 1;}
   20% {opacity: 1;}
   33% {opacity: 1;}
   53% {opacity: 1;}
   100% {opacity: 1;}
-}
+}*/
 
 
 @keyframes shade {
@@ -154,9 +150,9 @@ body {
   100% {opacity: 1;}
 }
 .ImG {
-    height: 711px;
-    width: 569px;
-    margin: 0;
+  height: 711px;
+  width: 569px;
+  margin: 0;
 }
 .HeadEr {
   height: 100%;
@@ -198,7 +194,6 @@ body {
 #topPic2 {
   animation-name: fade;
   right: 5%!important;
-  /*animation-delay: 4s;*/
 }
 #bottomPic2 {
   right: 5%!important;
@@ -215,17 +210,17 @@ body {
   position: relative;
 }
 .backtips {
-width: 100vw;
-height: 80vh;
-position: absolute;
-top: 98px;
+  width: 100vw;
+  height: 80vh;
+  position: absolute;
+  top: 98px;
 }
 
 .backhead {
-width: 1280px;
-background-color: black;
-position: absolute;
-top: 0;
+  width: 1280px;
+  background-color: black;
+  position: absolute;
+  top: 0;
 }
 /* Slide one*/
 .tipsOne {
@@ -249,7 +244,7 @@ top: 0;
 }
 
 .textOne p {
-  font-family: Raleway;
+  font-family: Raleway!important;
   font-size: 24px;
   line-height: 30px;
   text-align: left;
@@ -276,7 +271,7 @@ top: 0;
 }
 
 .textTwo p {
-  font-family: Raleway;
+  font-family: Raleway!important;
   font-size: 24px;
   line-height: 30px;
   text-align: left;
@@ -304,7 +299,7 @@ top: 0;
 }
 
 .textThree p {
-  font-family: Raleway;
+  font-family: Raleway!important;
   font-size: 24px;
   line-height: 30px;
   text-align: left;
@@ -331,7 +326,7 @@ top: 0;
 }
 
 .textFour p {
-  /*font-family: Raleway;*/
+  font-family: Raleway!important;
   font-size: 24px;
   line-height: 30px;
   text-align: left;
@@ -358,7 +353,7 @@ top: 0;
 }
 
 .lastText p {
-  font-family: Raleway;
+  font-family: Raleway!important;
   font-size: 24px;
   line-height: 30px;
   text-align: left;
@@ -531,15 +526,14 @@ a .Linkbox {
   align-items: center;
 }
 .Linkbox {
-position: relative;
-bottom: 0;
-/*height: 105px;*/
-width: 517px;
-margin: 0 auto;
-background-color: black;
-display: flex;
-align-items: flex-end;
-justify-content: center
+  position: relative;
+  bottom: 0;
+  width: 517px;
+  margin: 0 auto;
+  background-color: black;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center
 }
 
 .Linkbox p{
@@ -547,14 +541,14 @@ justify-content: center
   line-height: 22px;
   text-align: center;
   color: white;
-  font: Raleway;
+  font: Raleway!important;
 }
 
 .Linkbox h3{
 	height: 68px;
   width: 517px;
   color: white;
-  font-family: Muli;
+  font-family: Muli!important;
   font-size: 55px;
   font-weight: 200;
   letter-spacing: 3px;

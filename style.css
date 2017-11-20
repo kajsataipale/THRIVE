@@ -130,11 +130,9 @@ a {
 .header-top {
 	background-color: black!important;
   position: absolute;
-  /*padding: 0 10px;*/
-  /*position: fixed;*/
   top: 0;
   width: 100%;
-height: 80px;
+  height: 80px;
   z-index: 12;
   margin: 0;
   box-sizing: border-box;
@@ -163,8 +161,8 @@ height: 80px;
   width: 100%;
   top: 54px;
   left: 50%;
-    transform: translateX(-50%);
-letter-spacing: 8px;
+  transform: translateX(-50%);
+  letter-spacing: 8px;
 
 }
 .heads {
@@ -185,49 +183,15 @@ letter-spacing: 8px;
 }
 
 .mainpage {
-
   background-image: url("images/thrive_mobil_element/startsida.png");
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 .Event {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-/*.hidden {
-  /*opacity: 0;
-  transition: opacity 0.5s linear 0s;
-  visibility: hidden;*/
-  /*position: absolute;
-  top: 60vh;
-  left: 8vh;
-  color: white;
-  font-size: 4em;
-  background-color: black;
-  padding: 3vh;
-  text-align: left;
-  height: 30vh;
-  width: 70%;
-  display: block;
-  visibility: visible;
-  margin: 0 auto;
-}*/
-
-/*.plus {
-  visibility: hidden;
-  width: 25%;
-  height: 10vh;
-  margin: 0 auto;
-  margin-bottom: 5vh;
-}*/
-
-/*.plus:hover + .hidden{
-  display: block;
-  opacity: 1;
-  visibility: visible;
-}*/
 .arrow {
   width: 25%;
   height: 4vh;
@@ -240,9 +204,6 @@ letter-spacing: 8px;
 
 section {
 	text-align: center;
-
-
-  /*background: url('https://unsplash.it/1910/1221?image=626') no-repeat center / cover;*/
 }
 .Main {
   background-color: black!important;
@@ -251,9 +212,6 @@ section {
   background-size: cover;
 }
 .fastF {
-/*background-image: url("images/thrive_mobil_element/fuck_fashion_bild.png");
-background-repeat: no-repeat;
-background-size: contain;*/
 width: 100vw;
 height: 100vh;
 }
@@ -290,7 +248,7 @@ height: 100vh;
 }
 
 .textOne p {
-  font-family: Raleway;
+  font-family: Raleway!important;
   font-size: 18px;
   line-height: 18px;
   text-align: left;
@@ -324,7 +282,7 @@ height: 100vh;
 
   .textTwo p {
     color: #000000;
-    font-family: Raleway;
+    font-family: Raleway!important;
     font-size: 18px;
     line-height: 18px;
     text-align: left;
@@ -357,7 +315,7 @@ height: 100vh;
 
 .textThree p {
   color: #000000;
-  font-family: Raleway;
+  font-family: Raleway!important;
   font-size: 18px;
   line-height: 18px;
   text-align: left;
@@ -391,7 +349,7 @@ height: 100vh;
 
 .textFour p {
   color: #000000;
-  font-family: Raleway;
+  font-family: Raleway!important;
   font-size: 18px;
   line-height: 18px;
   text-align: left;
@@ -425,7 +383,7 @@ height: 100vh;
 
 .lastText p {
   color: #000000;
-  font-family: Raleway;
+  font-family: Raleway!important;
   font-size: 18px;
   line-height: 18px;
   text-align: left;
@@ -445,7 +403,7 @@ height: 100vh;
    height: 34px;
    width: 254px;
    color: #FFFFFF;
-   font-family: Didot;
+   font-family: Didot!important;
    font-size: 28px;
    font-style: italic;
    letter-spacing: 2px;
@@ -462,7 +420,6 @@ h3 {
 	font-size: 2.8em;
 }
 .backhead {
-/*width: 100%;*/
 height: 7vh;
 background-color: black;
 }
@@ -517,8 +474,6 @@ background-color: #F8C759;
 	box-sizing: border-box;
 	border: 3px solid black;
 }
-
-//#24221F
 
 /* MQ STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
