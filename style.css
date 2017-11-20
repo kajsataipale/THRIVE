@@ -1,14 +1,27 @@
-@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700);
+@media screen and (max-width: 1200px){
+#desktop {
+  display: none!important;
+}
+#mobile{
+  display: contents!important;
+}
+
+body {
+  background-color: black!important;
+  margin: 0;
+  padding: 0;
+}
+/*@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700);*/
 
 
 
 /* ICON STYLES - ICON FROM: http://fontastic.me/
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-@font-face {
+/*@font-face {
   font-family: "untitled-font-1";
   font-style: normal;
-}
+}*/
 
 [class^="icon-"]:after,
 [class*=" icon-"]:after {
@@ -95,9 +108,6 @@
 * {
 	margin: 0;
 	padding: 0;
-	font-family: 'Alegreya Sans', Arial, sans-serif;
-
-
 }
 
 html {
@@ -533,36 +543,4 @@ background-color: #F8C759;
     width: 150%;
   }
 }
-
-
-
-/*@media screen and (max-width: 800px) {
-  .hidden {
-    opacity: 0;
-    transition: opacity 0.5s linear 0s;
-    visibility: hidden;
-    position: absolute;
-    top: 40vh;
-    left: 8vh;
-    color: white;
-    font-size: 4em;
-    background-color: black;
-    padding: 3vh;
-    text-align: left;
-    height: 30vh;
-    width: 70%;
-  }
-  .plus {
-    visibility: visible;
-    display: block;
-    width: 25%;
-    height: 10vh;
-    margin: 0 auto;
-    margin-bottom: 5vh;
-  }
-  .plus:hover + .hidden{
-    display: block;
-    opacity: 1;
-    visibility: visible;
-  }
-}*/
+}
