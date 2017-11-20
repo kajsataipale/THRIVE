@@ -1,4 +1,4 @@
-@media screen and (max-width: 1200px){
+/*@media screen and (max-width: 1200px){
 #desktop {
   display: none!important;
 }
@@ -10,7 +10,7 @@ body {
   background-color: black!important;
   margin: 0;
   padding: 0;
-}
+}*/
 /*@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:300,400,700);*/
 
 
@@ -23,7 +23,7 @@ body {
   font-style: normal;
 }*/
 
-[class^="icon-"]:after,
+/*[class^="icon-"]:after,
 [class*=" icon-"]:after {
   font-family: "untitled-font-1";
   font-style: normal;
@@ -60,14 +60,14 @@ body {
   padding: 0 10px;
   	-webkit-transform: translateX(-50%);
   	        transform: translateX(-50%);
-}
+}*/
 
 
 
 /* HELPER CLASSES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.clearfix:before,
+/*.clearfix:before,
 .clearfix:after {
   content: "";
   display: table;
@@ -98,14 +98,14 @@ body {
 	        transition: opacity, transform 1s, -webkit-transform 1s;
 	-webkit-transition-delay: 1s;
 	        transition-delay: 1s;
-}
+}*/
 
 
 
 /* RESET-GENERAL STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-* {
+/** {
 	margin: 0;
 	padding: 0;
 }
@@ -123,11 +123,11 @@ body {
 a {
 	text-decoration: none;
 	color: white;
-}
+}*/
 
 
 
-.header-top {
+/*.header-top {
 	background-color: black!important;
   position: absolute;
   top: 0;
@@ -139,8 +139,8 @@ a {
   display: flex;
   justify-content: center;
   box-shadow: 0 3px 6px 2px rgba(0,0,0,0.5);
-}
-.logoType h1 {
+}*/
+/*.logoType h1 {
   position: absolute;
   padding: 0;
   margin: 0;
@@ -150,8 +150,8 @@ a {
     transform: translateX(-50%);
   top: 15px;
   letter-spacing: 15px;
-}
-.logoType p {
+}*/
+/*.logoType p {
   position: absolute;
   padding: 0;
   margin: 0;
@@ -164,8 +164,8 @@ a {
   transform: translateX(-50%);
   letter-spacing: 8px;
 
-}
-.heads {
+}*/
+/*.heads {
   position: absolute;
   top: 0;
   width: 100%;
@@ -175,61 +175,62 @@ a {
   justify-content: center;
   background-color: black;
 
-}
+}*/
 
-.rubrik {
+/*.rubrik {
   width: 100%;
   height: 12vh;
-}
+}*/
 
-.mainpage {
+/*.mainpage {
   background-image: url("images/thrive_mobil_element/startsida.png");
   background-repeat: no-repeat;
   background-size: cover;
-}
-.Event {
+}*/
+
+// Använder vi denna?.Event {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.arrow {
+/*.arrow {
   width: 25%;
   height: 4vh;
   margin: 0 auto;
   margin-top: 5vh;
 
-}
+}*/
 /* SECTION STYLES - fullPage.js
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-section {
+/*section {
 	text-align: center;
-}
-.Main {
+}*/
+/*.Main {
   background-color: black!important;
   background-image: url("images/thrive_mobil_element/concret_wall.png");
   background-repeat: no-repeat;
   background-size: cover;
-}
-.fastF {
+}*/
+/*.fastF {
 width: 100vw;
 height: 100vh;
-}
+}*/
 
-.containOne {
+/*.containOne {
   position: relative;
   text-align: center;
-}
+}*/
 
-.backtips {
+/*.backtips {
   position: absolute;
   width: 100vw;
   top: 0;
   left: 0;
   z-index: -1;
-}
+}*/
 
-.tipsOne {
+/*.tipsOne {
   height: 100vh;
   width: 100vw;
   z-index: 1;
@@ -252,11 +253,11 @@ height: 100vh;
   font-size: 18px;
   line-height: 18px;
   text-align: left;
-}
+}*/
 
   /*Second slider css*/
 
-  .containTwo {
+  /*.containTwo {
     position: relative;
     text-align: center;
   }
@@ -286,10 +287,10 @@ height: 100vh;
     font-size: 18px;
     line-height: 18px;
     text-align: left;
-}
+}*/
 
 /*Thrid slider css*/
-.containThree {
+/*.containThree {
   position: relative;
   text-align: center;
 }
@@ -319,11 +320,11 @@ height: 100vh;
   font-size: 18px;
   line-height: 18px;
   text-align: left;
-}
+}*/
 
 /*Fourth slider css*/
 
-.containFour {
+/*.containFour {
   position: relative;
   text-align: center;
 }
@@ -353,11 +354,11 @@ height: 100vh;
   font-size: 18px;
   line-height: 18px;
   text-align: left;
-}
+}*/
 
 /*Last slider css*/
 
-.containLast {
+/*.containLast {
   position: relative;
   text-align: center;
 }
@@ -387,9 +388,9 @@ height: 100vh;
   font-size: 18px;
   line-height: 18px;
   text-align: left;
-}
+}*/
 
-.Cbox {
+/*.Cbox {
   height: 70px;
   width: 315px;
   background-color: black;
@@ -409,42 +410,43 @@ height: 100vh;
    letter-spacing: 2px;
    line-height: 35px;
    text-align: center;
-}
+}*/
 
-b {
+/*b {
   font-size: 120%;
 }
 
 h3 {
 	font-weight: 300;
 	font-size: 2.8em;
-}
-.backhead {
+}*/
+/*.backhead {
 height: 7vh;
 background-color: black;
 }
 .backtips {
 width: 100vw;
 height: 100vh;
-}
-
- .store {
-  width: 90%;
-  height: 12vh;
-  margin: 0 auto;
-  margin-top: 65vh;
-  position: absolute;
+}*/
+/*.storeLogo{
+  height: 100vw;
+  width: 100vw;
 }
 
 .visitStore {
-position: absolute;
-bottom: 77px;
-margin: 0 auto;
-border: 1px solid #F8C759;
-height: 70px;
-width: 315px;
-background-color: #F8C759;
-}
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 5%;
+  margin: 0 auto;
+  border: 1px solid #F8C759;
+  height: 10%;
+  width: 80%;
+  background-color: #F8C759;
+  cursor: pointer;
+}*/
+
 /* SLIDENAV STYLES - fullPage.js
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -478,7 +480,7 @@ background-color: #F8C759;
 /* MQ STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-@media screen and (max-width: 767px) {
+/*@media screen and (max-width: 767px) {
 
   .logo {
     width: 50%;
@@ -498,4 +500,4 @@ background-color: #F8C759;
     width: 150%;
   }
 }
-}
+}*/
