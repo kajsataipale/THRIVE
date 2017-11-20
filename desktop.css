@@ -1,3 +1,10 @@
+@media screen and (min-width: 1200px) {
+#mobile{
+  display: none!important;
+}
+#desktop {
+  display:  contents!important;
+}
 body {
   background-color: black!important;
   margin: 0;
@@ -22,7 +29,7 @@ body {
   /*position: fixed;*/
   top: 0;
   width: 100%;
-  height: 11.55vh;
+  height: 80px;
   z-index: 12;
   margin: 0;
   box-sizing: border-box;
@@ -147,23 +154,22 @@ body {
   100% {opacity: 1;}
 }
 .ImG {
-    /*height: 711px;*/
-    width: 35vw;
+    height: 711px;
+    width: 569px;
     margin: 0;
-    top: 100px;
 }
 .HeadEr {
   height: 100%;
   width: 100%;
   display: flex;
-  flex-direction: column-reverse;
-  /*justify-content: center;*/
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 
 .Heading {
   height: 98;
-  width: 35vw;
+  width: 569px;
   position: absolute;
   left: 5%;
   z-index: 6;
@@ -173,7 +179,7 @@ body {
 }
 .Heading2 {
   height: 98;
-  width: 35vw;
+  width: 569px;
   position: absolute;
   right: 5%;
   z-index: 6;
@@ -216,9 +222,9 @@ top: 98px;
 }
 
 .backhead {
-width: 100vw;
+width: 1280px;
 background-color: black;
-/*position: absolute;*/
+position: absolute;
 top: 0;
 }
 /* Slide one*/
@@ -229,9 +235,7 @@ top: 0;
 }
 
 .textOne {
-  position: relative;
-  width: 40vw;
-  height: 45vw;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -241,16 +245,15 @@ top: 0;
 .textOne h3 {
   margin-bottom: 50px;
   font-weight: bold;
-  font-size: 2.3vw;
+  font-size: 24px;
 }
 
 .textOne p {
   font-family: Raleway;
-  font-size: 2.2vw;
+  font-size: 24px;
   line-height: 30px;
   text-align: left;
 }
-
 /* Slide two */
 .tipsTwo {
   height: 100vh;
@@ -259,9 +262,7 @@ top: 0;
 }
 
 .textTwo {
-  position: relative;
-  width: 40vw;
-  height: 45vw;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -271,12 +272,12 @@ top: 0;
 .textTwo h3 {
   margin-bottom: 50px;
   font-weight: bold;
-  font-size: 2.3vw;
+  font-size: 24px;
 }
 
 .textTwo p {
   font-family: Raleway;
-  font-size: 2.2vw;
+  font-size: 24px;
   line-height: 30px;
   text-align: left;
 }
@@ -288,9 +289,7 @@ top: 0;
 }
 
 .textThree {
-  position: relative;
-  width: 40vw;
-  height: 45vw;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -300,12 +299,12 @@ top: 0;
 .textThree h3 {
   margin-bottom: 50px;
   font-weight: bold;
-  font-size: 2.3vw;
+  font-size: 24px;
 }
 
 .textThree p {
   font-family: Raleway;
-  font-size: 2.2vw;
+  font-size: 24px;
   line-height: 30px;
   text-align: left;
 }
@@ -317,9 +316,7 @@ top: 0;
 }
 
 .textFour {
-  position: relative;
-  width: 40vw;
-  height: 45vw;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -329,12 +326,12 @@ top: 0;
 .textFour h3 {
   margin-bottom: 50px;
   font-weight: bold;
-  font-size: 2.3vw;
+  font-size: 24px;
 }
 
 .textFour p {
-  font-family: Raleway;
-  font-size: 2.2vw;
+  /*font-family: Raleway;*/
+  font-size: 24px;
   line-height: 30px;
   text-align: left;
 }
@@ -346,9 +343,7 @@ top: 0;
 }
 
 .lastText {
-  position: relative;
-  width: 40vw;
-  height: 45vw;
+  position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -358,12 +353,12 @@ top: 0;
 .lastText h3 {
   margin-bottom: 50px;
   font-weight: bold;
-  font-size: 2.3vw;
+  font-size: 24px;
 }
 
 .lastText p {
   font-family: Raleway;
-  font-size: 2.2vw;
+  font-size: 24px;
   line-height: 30px;
   text-align: left;
 }
@@ -377,8 +372,8 @@ top: 0;
   top: 20vh;
   left: 10%;;
   padding: 3vh;
-  /*height: 472px;*/
-  width: 30vw;
+  height: 472px;
+  width: 404px;
   display: block;
   visibility: hidden;
   margin: 0 auto;
@@ -388,12 +383,13 @@ top: 0;
   opacity: 0;
   transition: opacity 0.5s linear 0s;
   visibility: hidden;
+  position: absolute;
   background-color: black;
   top: 20vh;
   left: 60%;;
   padding: 3vh;
-  /*height: 472px;*/
-  width: 30vw;
+  height: 472px;
+  width: 404px;
   display: block;
   visibility: hidden;
   margin: 0 auto;
@@ -403,14 +399,13 @@ top: 0;
 .hidden {
   position: relative;
   color: white;
-  background-color: black;
-  padding: 3vh;
   font-size: 24px;
   line-height: 30px;
   text-align: left;
 }
 .plus {
-  z-index: 1;
+  position: absolute;
+  height: 8%;
   width: 8%;
   top: 80vh;
   cursor: pointer;
@@ -435,16 +430,15 @@ top: 0;
   height: 100%;
   width: 100%;
   display: flex;
-  /*flex-direction: column;*/
+  flex-direction: column;
   justify-content: center;
-  /*align-items: center;*/
+  align-items: center;
 }
 
 .plus2 {
-  /*position: relative;*/
-  z-index: 10;
-  width: 8%;
+  position: absolute;
   height: 8%;
+  width: 8%;
   top: 80vh;
 }
 
@@ -492,25 +486,24 @@ top: 0;
 }
 .Heading3 {
   height: 98;
-  width: 35vw;
+  width: 569px;
   position: absolute;
   left: 5%;
   z-index: 6;
-  top: 0px;
+  top: 0;
   margin-bottom: -10px;
   background-color: black;
 }
 .Heading4 {
   height: 98;
-  width: 35vw;
+  width: 569px;
   position: absolute;
   right: 5%;
   z-index: 6;
-  top: 0px;
+  top: 0;
   margin-bottom: -10px;
   background-color: black;
 }
-
 #topPic1, #bottomPic1{
   position:absolute;
   -webkit-animation-iteration-count: infinite;
@@ -637,4 +630,5 @@ justify-content: center
 	        transition: opacity, transform 1s, -webkit-transform 1s;
 	-webkit-transition-delay: 1s;
 	        transition-delay: 1s;
+}
 }
