@@ -1,8 +1,8 @@
 @media screen and (min-width: 1200px) {
-#mobile{
+.mobile{
   display: none!important;
 }
-#desktop {
+.desktop {
   display:  contents!important;
 }
 body {

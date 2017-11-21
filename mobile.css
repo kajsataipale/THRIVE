@@ -1,9 +1,9 @@
 @media screen and (max-width: 1200px){
-#desktop {
-  display: none!important;
+.desktop {
+  display: none !important;
 }
-#mobile{
-  display: contents!important;
+.mobile{
+  display: contents !important;
 }
 
 body {
@@ -454,5 +454,12 @@ height: 100vh;
 	background: black;
 	box-sizing: border-box;
 	border: 3px solid black;
+}
+#fp-nav ul,
+.fp-slidesNav ul {
+  margin: 0;
+  padding: 0;
+  display: flex!important;
+  justify-content: center!important;
 }
 }
