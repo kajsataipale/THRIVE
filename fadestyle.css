@@ -1,3 +1,13 @@
+@font-face {
+  font-family: 'RalewayLight';
+  src: url('Raleway-Light.ttf');
+}
+
+@font-face {
+  font-family: 'RalewayBold';
+  src: url('Raleway-Bold.ttf');
+}
+
 .fourthPage  {
   background-image: url("images\thrive_mobil_element\concret_wall.png");
   background-repeat: no-repeat;
@@ -85,8 +95,9 @@
 	height: 272px;
 	width: 286px;
 	color: #FFFFFF;
-	font-family: Raleway;
+	font-family: 'RalewayLight';
 	font-size: 18px;
 	line-height: 21px;
 text-align: left;
+/*font-weight: lighter;*/
 }
