@@ -205,6 +205,15 @@ b {
   height: 12vh;
 }
 
+.petaText {
+  height: 35vh;
+  width: 40vw;
+  color: #FFFFFF;
+  font-family: 'RalewayLight';
+  line-height: 3vh;
+  text-align: left;
+}
+
 .heads {
   position: absolute;
   top: 0;
@@ -399,11 +408,12 @@ height: 100vh;
   transform: translate(-50%, -50%);
   font-size: 4vw;
   line-height: 3.5vh;
+  text-align: left;
 }
 
 .lastText h3 {
-  margin-bottom: 50px;
-  font-weight: bold;
+  /*margin-bottom: 50px;
+  font-weight: bold;*/
   font-size: 5vh;
 }
 
