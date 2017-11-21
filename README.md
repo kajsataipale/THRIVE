@@ -1,9 +1,9 @@
 # THRIVE
-<img src="https://giphy.com/gifs/filmeditor-clueless-movie-xT9KVgmGTooXz0iDPW" alt="02 - Logic & Presentation" width="100%">
+<img src="https://giphy.com/gifs/1v9Yqle0vDDDW" alt="02 - Logic & Presentation" width="100%">
 
 ## The assignment was to create a landing page for the store [THRIVE](http://www.thrivestore.se/).
 
-# Goals for the landing was to:
+### Goals for the landing was to:
 Educate <br>
 Inspire commitment <br>
 Create awareness
