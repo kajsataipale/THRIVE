@@ -3,7 +3,7 @@
 
 ## Welcome to our very first group assignment betwween WU17 and DD17!
 
-## The assignment was to create a landing page for the store [THRIVE](http://www.thrivestore.se/).
+### The assignment was to create a landing page for the store [THRIVE](http://www.thrivestore.se/).
 
 ### Goals for the landing was to:
 Educate <br>
