@@ -5,10 +5,10 @@
 
 ### The assignment was to create a landing page for the store [THRIVE](http://www.thrivestore.se/).
 
-### Goals for the landing was to:
-Educate <br>
-Inspire commitment <br>
-Create awareness
+### Goals for the landing page was to:
+* Educate <br>
+* Inspire commitment <br>
+* Create awareness
 
 ### Languages
 
