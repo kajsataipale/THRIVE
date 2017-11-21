@@ -10,14 +10,14 @@ body {
   margin: 0;
   padding: 0;
 }
-  .mainpage {
-    height: 860px;
-    width: 100%;
-  }
-  .fastbox {
-    width: 50px;
-    height: 90px;
-  }
+.mainpage {
+  height: 860px;
+  width: 100%;
+}
+.fastbox {
+  width: 50px;
+  height: 90px;
+}
 .fastF{
   height: 60px;
   width: 60px;
