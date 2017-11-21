@@ -1,6 +1,6 @@
 # THRIVE
 <img src="https://giphy.com/gifs/studiosoriginals-toad-abbey-lossing-l4FGGylX7XqT5D1nO" alt="02 - Logic & Presentation" width="100%">
-
+## Welcome to our very first group assignment betwween WU17 and DD17!
 ## The assignment was to create a landing page for the store [THRIVE](http://www.thrivestore.se/).
 
 ### Goals for the landing was to:
