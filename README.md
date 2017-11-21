@@ -1,5 +1,5 @@
 # THRIVE
-<img src="https://giphy.com/gifs/1v9Yqle0vDDDW" alt="02 - Logic & Presentation" width="100%">
+<img src="https://giphy.com/gifs/movie-90s-clueless-g4azW50iTBBN6" alt="02 - Logic & Presentation" width="100%">
 
 ## The assignment was to create a landing page for the store [THRIVE](http://www.thrivestore.se/).
 
