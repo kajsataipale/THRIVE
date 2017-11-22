@@ -505,6 +505,31 @@
   visibility: hidden;
   margin: 0 auto;
  }
+
+ .lastFooter {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100vw;
+   height: 15vh;
+   z-index: 100;
+ }
+
+ .lastFooter p1 {
+   font-size: 2.9vh;
+   color: white;
+ }
+
+ .lastFooter h2 {
+   color: white;
+   margin: 0;
+   letter-spacing: 20px;
+   font-size: 5vh;
+ }
+
  .Heading3 {
   height: 98px;
   width: 569px;
