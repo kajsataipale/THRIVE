@@ -8,6 +8,11 @@
   src: url('Raleway-Bold.ttf');
 }
 
+@font-face {
+  font-family: 'Didot';
+  src: url('Didot.ttf');
+}
+
 .fourthPage  {
   background-image: url("images\thrive_mobil_element\concret_wall.png");
   background-repeat: no-repeat;
