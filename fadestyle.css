@@ -97,12 +97,12 @@
 }
 
 .petaText {
-	height: 272px;
-	width: 286px;
+  height: 35vh;
+  width: 40vw;
 	color: #FFFFFF;
 	font-family: 'RalewayLight';
-	font-size: 18px;
-	line-height: 21px;
+	font-size: 2vh;
+	line-height: 3vh;
 text-align: left;
 /*font-weight: lighter;*/
 }
