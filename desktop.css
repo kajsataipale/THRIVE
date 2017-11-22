@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'Didot-italic';
+  src: url('Didot.ttf');
+}
 @media screen and (min-width: 600px) {
 .mobile{
   display: none!important;
