@@ -179,10 +179,15 @@
   width: 569px;
   position: relative;
   left: -0.5%;
-  z-index: 6;
+  z-index: 999;
   top: -44%;
   margin-bottom: -10px;
   background-color: black;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
+  -webkit-transform: translate3D(0, 0, 0);
+  transform: translateZ(0);
+  font-smoothing: antialiased !important;
  }
  .Heading2 {
   height: 98px;
@@ -194,6 +199,11 @@
   top: -44%;
   margin-bottom: -10px;
   background-color: black;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
+  -webkit-transform: translate3D(0, 0, 0);
+  transform: translateZ(0);
+  font-smoothing: antialiased !important;
  }
 
  #topPic2,
@@ -504,6 +514,11 @@
   top: -44%;
   margin-bottom: -10px;
   background-color: black;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
+  -webkit-transform: translate3D(0, 0, 0);
+  transform: translateZ(0);
+  font-smoothing: antialiased !important;
  }
  .Heading4 {
   height: 98px;
@@ -515,6 +530,11 @@
   top: -44%;
   margin-bottom: -10px;
   background-color: black;
+  -webkit-backface-visibility: hidden;
+  -webkit-transform: translateZ(0) scale(1.0, 1.0);
+  -webkit-transform: translate3D(0, 0, 0);
+  transform: translateZ(0);
+  font-smoothing: antialiased !important;
  }
  #topPic1,
  #bottomPic1 {
@@ -643,8 +663,4 @@
   -webkit-transition-delay: 1s;
   transition-delay: 1s;
  }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 76c47c695206b4658f8d3ee4eab9ea5000d0f97d
