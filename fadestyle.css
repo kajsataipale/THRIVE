@@ -49,13 +49,14 @@
 
 
 .shirtFade img {
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
   position:absolute;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-duration: 8s;
   animation-iteration-count: infinite;
   animation-duration: 8s;
+  top: 10vh;
 }
 
 #topPic {
@@ -86,11 +87,11 @@
 
 .textBox {
   position: absolute;
-  height: 246px;
-  width: 315px;
+  height: 30vh;
+  width: 64vw;
   background-color: #000000;
   z-index: 20;
-  bottom: 10%;
+  bottom: 8%;
   padding: 20px;
   left: 50%;
     transform: translateX(-50%);
@@ -98,7 +99,7 @@
 
 .petaText {
   height: 35vh;
-  width: 40vw;
+  width: 67vw;
 	color: #FFFFFF;
 	font-family: 'RalewayLight';
 	font-size: 2vh;

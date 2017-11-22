@@ -151,7 +151,7 @@ b {
 .header-top {
 	background-color: black!important;
   position: absolute;
-  top: 0;
+  bottom: 83vh;
   width: 100%;
   height: 17%;
   z-index: 12;
@@ -185,11 +185,7 @@ b {
   left: 50%;
   transform: translateX(-50%);
 }
-.mainpage {
-  background-image: url("images/thrive_mobil_element/startsida.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 .arrow {
   position: absolute;
   width: 20%;
@@ -232,8 +228,10 @@ b {
   background-size: cover;
 }
 .fastF {
-width: 100vw;
-height: 100vh;
+  position: absolute;
+  top: 10vh;
+  width: 100vw;
+  height: 90vh;
 }
 /* Slides */
 .backhead {
@@ -279,7 +277,7 @@ height: 100vh;
 
 .textOne p {
   font-family: Raleway!important;
-  font-size: 4vw;
+  font-size: 3.6vw;
   line-height: 3.5vh;
   text-align: left;
 }
@@ -314,7 +312,7 @@ height: 100vh;
 .textTwo p {
   color: #000000;
   font-family: Raleway!important;
-  font-size: 4vw;
+  font-size: 3.6vw;
   line-height: 3.5vh;
   text-align: left;
 }
@@ -347,7 +345,7 @@ height: 100vh;
 .textThree p {
   color: #000000;
   font-family: Raleway!important;
-  font-size: 4vw;
+  font-size: 3.6vw;
   line-height: 3.5vh;
   text-align: left;
 }
@@ -381,7 +379,7 @@ height: 100vh;
 .textFour p {
   color: #000000;
   font-family: Raleway!important;
-  font-size: 4vw;
+  font-size: 3.6vw;
   line-height: 3.5vh;
   text-align: left;
 }
@@ -403,15 +401,17 @@ height: 100vh;
 
 .lastText p {
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 4vw;
+  font-size: 3.6vw;
   line-height: 3.5vh;
   text-align: left;
 }
 
 .lastText h3 {
+  position: relative;
+  top: 19vh;
   /*margin-bottom: 50px;
   font-weight: bold;*/
   font-size: 5vh;
@@ -428,7 +428,7 @@ height: 100vh;
   justify-content: center;
   align-items: center;
   position: relative;
-  bottom: 10%;
+  top: 40%;
   margin: 0 auto;
   border: 1px solid #F8C759;
   height: 10%;
