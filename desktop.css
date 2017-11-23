@@ -151,8 +151,8 @@
  }
 
  .Heading {
-  height: 98px;
-  width: 569px;
+  /*height: 98px;*/
+  width: 37.1vw;
   position: absolute;
   left: 5%;
   z-index: 999;
@@ -166,8 +166,8 @@
   font-smoothing: antialiased !important;
  }
  .Heading2 {
-  height: 98px;
-  width: 569px;
+  /*height: 98px;*/
+  width: 37.1vw;
   position: absolute;
   right: 5%;
   z-index: 6;
@@ -506,8 +506,8 @@
  }
 
  .Heading3 {
-  height: 98px;
-  width: 569px;
+  /*height: 98px;*/
+  width: 37.1vw;
   position: absolute;
   left: 5%;
   z-index: 6;
@@ -521,8 +521,8 @@
   font-smoothing: antialiased !important;
  }
  .Heading4 {
-  height: 98px;
-  width: 569px;
+  /*height: 98px;*/
+  width: 37.1vw;
   position: absolute;
   right: 5%;
   z-index: 6;
