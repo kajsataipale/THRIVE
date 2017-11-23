@@ -161,8 +161,8 @@
   }
  }
  .ImG {
-  height: 711px;
-  width: 569px;
+  height: 83vh;
+  width: 37.01vw;
   margin: 0;
  }
  .HeadEr {
@@ -513,12 +513,12 @@
    left: 0;
    bottom: 0;
    width: 100vw;
-   height: 15vh;
+   height: 10vh;
    z-index: 100;
  }
 
  .lastFooter p1 {
-   font-size: 2.9vh;
+   font-size: 2.4vh;
    color: white;
  }
 
@@ -526,7 +526,7 @@
    color: white;
    margin: 0;
    letter-spacing: 20px;
-   font-size: 5vh;
+   font-size: 3.8vh;
  }
 
  .Heading3 {
