@@ -61,7 +61,7 @@
 
    if (index == 1 && nextIndex == 2) {
     $isAnimatedSecond.addClass('animated fadeInUpBig');
-    $isAnimatedSecond.eq(0).css('animation-delay', '1s');
+    $isAnimatedSecond.eq(0).css('animation-delay', '0.2s');
     $isAnimatedSecondSingle.addClass('animated fadeInUpBig').css('animation-delay', '0s');
 
    }
@@ -72,7 +72,7 @@
    }
    if (index == 3 && nextIndex == 4) {
     $isAnimatedFourth.addClass('animated fadeInUpBig');
-    $isAnimatedFourth.eq(0).css('animation-delay', '1s');
+    $isAnimatedFourth.eq(0).css('animation-delay', '0s');
     $isAnimatedFourthSingle.addClass('animated fadeIn').css('animation-delay', '0s');
 
    }
