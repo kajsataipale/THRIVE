@@ -1,6 +1,6 @@
 @font-face {
  font-family: 'Didot-italic';
- src: url('Didot.ttf');
+ src: url('Didot.ttc');
 }
 
 @media screen and (min-width: 600px) {
@@ -93,7 +93,8 @@
   width: 354px;
   text-transform: uppercase;
   color: #FFFFFF;
-  font-family: Didot!important;
+  font-family: 'Didot-italic' !important;
+  font-weight: 200;
   font-size: 48px;
   font-style: italic;
   letter-spacing: 2px;
