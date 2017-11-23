@@ -177,10 +177,10 @@
  .Heading {
   height: 98px;
   width: 569px;
-  position: relative;
-  left: -0.5%;
+  position: absolute;
+  left: 5%;
   z-index: 999;
-  top: -44%;
+  top: 0;
   margin-bottom: -10px;
   background-color: black;
   -webkit-backface-visibility: hidden;
@@ -192,11 +192,10 @@
  .Heading2 {
   height: 98px;
   width: 569px;
-  position: relative;
-  right: 0%;
-  left: 0.5%;
+  position: absolute;
+  right: 5%;
   z-index: 6;
-  top: -44%;
+  top: 0;
   margin-bottom: -10px;
   background-color: black;
   -webkit-backface-visibility: hidden;
@@ -533,10 +532,10 @@
  .Heading3 {
   height: 98px;
   width: 569px;
-  position: relative;
-  left: -0.5%;
+  position: absolute;
+  left: 5%;
   z-index: 6;
-  top: -44%;
+  top: 0;
   margin-bottom: -10px;
   background-color: black;
   -webkit-backface-visibility: hidden;
@@ -548,11 +547,10 @@
  .Heading4 {
   height: 98px;
   width: 569px;
-  position: relative;
-  right: 0%;
-  left: 0.5%;
+  position: absolute;
+  right: 5%;
   z-index: 6;
-  top: -44%;
+  top: 0;
   margin-bottom: -10px;
   background-color: black;
   -webkit-backface-visibility: hidden;
