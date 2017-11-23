@@ -14,12 +14,13 @@
 
 This project is built with HTML, CSS and Javascript.
 
-## Getting started
+## Libraries
 
-1. Clone this repository (locally) or download as a zip to your desktop <br>
-2. You are now set and can begin coding!
+[fullPage.js](https://github.com/alvarotrigo/fullPage.js/) <br>
+[animate.css](https://github.com/daneden/animate.css)
+
 
 
 ### License
 
-Usage is provided under the [MIT License](http://http//opensource.org/licenses/mit-license.php).. See LICENSE for the full details.
+Usage is provided under the MIT License.. See [License](http://http//opensource.org/licenses/mit-license.php) for the full details.
