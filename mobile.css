@@ -224,9 +224,6 @@ b {
 }
 .Main {
   background-color: black!important;
-  background-image: url("images/thrive_mobil_element/concret_wall.png");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 .fastF {
   position: absolute;
