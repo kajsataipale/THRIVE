@@ -17,7 +17,6 @@ This project is built with HTML, CSS and Javascript.
 ## Libraries
 
 [fullPage.js](https://github.com/alvarotrigo/fullPage.js/) <br>
-[animate.css](https://github.com/daneden/animate.css)
 
 
 
