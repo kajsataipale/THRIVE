@@ -367,9 +367,9 @@
   visibility: hidden;
   position: absolute;
   background-color: black;
+  font-family: Raleway;
   top: 20vh;
   left: 10%;
-  ;
   padding: 3vh;
   height: 472px;
   width: 404px;
@@ -386,7 +386,7 @@
   background-color: black;
   top: 20vh;
   left: 60%;
-  ;
+  font-family: Raleway;
   padding: 3vh;
   height: 472px;
   width: 404px;
@@ -461,7 +461,7 @@
   background-color: black;
   top: 22vh;
   left: 10%;
-  ;
+  font-family: Raleway;
   padding: 3vh;
   height: 472px;
   width: 404px;
@@ -477,7 +477,7 @@
   background-color: black;
   top: 22vh;
   left: 60%;
-  ;
+  font-family: Raleway;
   padding: 3vh;
   height: 472px;
   width: 404px;
