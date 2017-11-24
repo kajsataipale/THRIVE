@@ -240,13 +240,14 @@
  }
 
  .textOne h3 {
+  font-family: Raleway;
   margin-bottom: 50px;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 40px;
  }
 
  .textOne p {
-  font-family: Raleway!important;
+  font-family: Raleway;
   font-size: 24px;
   line-height: 30px;
   text-align: left;
@@ -267,13 +268,14 @@
  }
 
  .textTwo h3 {
-  margin-bottom: 50px;
-  font-weight: bold;
-  font-size: 24px;
+   font-family: Raleway;
+   margin-bottom: 50px;
+   font-weight: bold;
+   font-size: 40px;
  }
 
  .textTwo p {
-  font-family: Raleway!important;
+  font-family: Raleway;
   font-size: 24px;
   line-height: 30px;
   text-align: left;
@@ -295,9 +297,10 @@
  }
 
  .textThree h3 {
-  margin-bottom: 50px;
-  font-weight: bold;
-  font-size: 24px;
+   font-family: Raleway;
+   margin-bottom: 50px;
+   font-weight: bold;
+   font-size: 40px;
  }
 
  .textThree p {
@@ -322,13 +325,14 @@
  }
 
  .textFour h3 {
-  margin-bottom: 50px;
-  font-weight: bold;
-  font-size: 24px;
+   font-family: Raleway;
+   margin-bottom: 50px;
+   font-weight: bold;
+   font-size: 40px;
  }
 
  .textFour p {
-  font-family: Raleway!important;
+  font-family: Raleway;
   font-size: 24px;
   line-height: 30px;
   text-align: left;
@@ -349,9 +353,10 @@
  }
 
  .lastText h3 {
-  margin-bottom: 50px;
-  font-weight: bold;
-  font-size: 24px;
+   font-family: Raleway;
+   margin-bottom: 50px;
+   font-weight: bold;
+   font-size: 40px;
  }
 
  .lastText p {
