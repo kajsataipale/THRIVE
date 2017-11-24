@@ -3,6 +3,11 @@
  src: url('Didot.ttc');
 }
 
+@font-face {
+ font-family: 'Raleway';
+ src: url('Raleway-Light.ttf');
+}
+
 @media screen and (min-width: 600px) {
  .mobile {
   display: none!important;
